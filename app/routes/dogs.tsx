@@ -5,7 +5,7 @@ export const meta: V2_MetaFunction = () => {
   return [{ title: "Dog List Page" }];
 };
 
-export default function DogListLayout() {
+export default function DogsLayout() {
   return (
     <div className="m-12">
       <Outlet />
