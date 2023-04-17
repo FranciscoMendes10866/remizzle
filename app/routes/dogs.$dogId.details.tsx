@@ -7,7 +7,7 @@ import { db } from "~/db/config.server";
 import { dogs } from "~/db/schema.server";
 
 export const loader = ({ params }: LoaderArgs) => {
-  const { dogId } = params as RouteParams["/dogs/:dogId/update"];
+  const { dogId } = params as RouteParams["/dogs/:dogId/details"];
 
   const result = db
     .select()
